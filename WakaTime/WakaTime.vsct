@@ -36,7 +36,7 @@
     </Bitmaps>
   </Commands>
   <Symbols>
-    <GuidSymbol name="guidWakaTimePkg" value="{52d9c3ff-c893-408e-95e4-d7484ec7fa47}" />
+    <GuidSymbol name="guidWakaTimePkg" value="{ef4309af-2ffe-4ad0-8a02-a95755d123cf}" />
     <GuidSymbol name="guidWakaTimeCmdSet" value="{054caf12-7fba-40d1-8dc8-bd69f838b910}">
       <IDSymbol name="MyMenuGroup" value="0x1020" />
       <IDSymbol name="TopLevelMenu" value="0x1021"/>

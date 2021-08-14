@@ -11,6 +11,7 @@ using WakaTime.ExtensionUtils;
 using WakaTime.Forms;
 using WakaTime.Shared.ExtensionUtils;
 using Task = System.Threading.Tasks.Task;
+using GuidList = WakaTime.Shared.ExtensionUtils.GuidList;
 
 namespace WakaTime
 {
@@ -31,7 +32,7 @@ namespace WakaTime
     /// To get loaded into VS, the package must be referred by &lt;Asset Type="Microsoft.VisualStudio.VsPackage" ...&gt; in .vsixmanifest file.
     /// </para>
     /// </remarks>
-    [Guid(GuidList.GuidWakaTimePkgString)]
+    [Guid(GuidList2022.GuidWakaTimePkgString)]
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [ProvideService(typeof(WakaTimePackage), IsAsyncQueryable = true)]
     [ProvideAutoLoad(GuidList.GuidWakaTimeUIString, PackageAutoLoadFlags.BackgroundLoad)]
