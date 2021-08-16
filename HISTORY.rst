@@ -2,6 +2,13 @@
 History
 -------
 
+
+12.0.1 (2021-08-16)
+++++++++++++++++++
+
+- Only switch to main thread after WakaTime has been proper initialized.
+
+
 12.0.0 (2021-08-13)
 ++++++++++++++++++
 
